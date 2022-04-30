@@ -1,0 +1,51 @@
+.submitbtn{
+	display: flex;
+	display: block;
+	padding: 30px;
+	background-color: red;
+	border-radius: 30px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.email, .name, .submitbtn{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.email, .name{
+	padding: 10px;
+}
+h1{
+	text-align: center;
+	display: block;
+	background-color: yellow;
+	padding: 20px;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:  #5d8aa8;
+	font-family: cursive;
+}
+.ee{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.submitbtn:hover{
+	background-color: yellow;
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 70px;
+	transition: 4s;
+	width: 200px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: blue;
+	padding: 50px;
+}
